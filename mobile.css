@@ -1,0 +1,87 @@
+.fundo {
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/Fundo.png);
+    height: 100vh;
+    width: 860px;
+    background-position: bottom;
+}
+
+.linha1 {
+    background: var(--roxo1);
+    height: 65px;
+    margin: 12px 0 0;
+    width: 860px;
+}
+
+.linha2 {
+    background: var(--roxo2);
+    height: 51px;
+    margin-top: 12px;
+    width: 860px;
+}
+
+.teladecarregamento {
+    width: 100%
+}
+
+.lines {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    width: 90vw;
+}
+
+
+
+.telaCarregamento {
+    width: 100vw    ;
+    height: 100vh;
+}
+
+.starCarregar3 {
+    top: 20px;
+}
+
+.starCarregar4 {
+    top: 20px;
+}
+
+.texto-logo {
+    transition-delay: 1s;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 100px;
+    color: var(--branco);
+    font-size: 50px;}
+
+
+:root {
+    --StarPequeno: 30px;
+    --StarPadrao: 64px;
+    --StarGrande: 200px;
+
+    --StarGrandeAltura: 210px;
+
+    --fontTitulo: 400 40px 'Opti-Regular', sans-serif;
+    --fontSubTitulo: 400 30px 'Decol-regular';
+    --fontTexto: 400 25px 'Opti-regular';
+
+    --fontTituloFooter: 400 30px 'Opti-Regular', sans-serif;
+    --fontSubTituloFooter: 400 20px 'Decol-regular';
+    --fontTextoFotter: 400 15px 'Opti-regular';
+
+    --amarelo: #F0E32E;
+    --roxoDiferente: #68519B;
+    --roxoEscuro: #661EAB;
+    --roxo1: #8F3DA3;
+    --roxo2: #FFA1F6;
+    --cinza: #D9D9D9;
+    --branco: #fff;
+    --preto: #000;
+
+    --fundoBrancoRoxo: linear-gradient(0deg, rgba(104, 42, 167, 0.65) -33.65%, rgba(255, 161, 246, 0.00) 138.46%);
+    --fundoRoxo1: linear-gradient(0deg, rgba(162, 73, 147, 0.86) 86.4%, rgba(124, 42, 232, 0.74) 98.04%);
+    --fundoRoxo2: linear-gradient(180deg, #A758A4 0%, #9E62EE 25.42%);
+    --corDivicao: linear-gradient(163deg, #AF62A2 -82.34%, #AF62A2 -8.41%, #A758A4 90.89%);
+}
